@@ -1,13 +1,7 @@
-var nt1 = 6;
-var nt2 = 10;
-var nt3 = 5;
-var media = (nt1 + nt2 + nt3) / 3;
-
-if (media >= 5) 
-{
-    console.log("a media é: " + media + " aprovado");
-}
-else 
-{
-    console.log("a media é " + media + " reprovado");
-}
+var n1 = 6;
+var n2 = 10;
+var n3 = 5;
+var fmedia = function (nota1, nota2, nota3) {
+    return (nota1 + nota2 + nota3) / 3;
+};
+console.log("a media " + fmedia(n1, n2, n3));
